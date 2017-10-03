@@ -4,27 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Magic8Ball</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+  <body>
 
-
-  <!-- you need:
-  an input field to input a question,
-  an ask button that when clicked, will output a random image
-  a div/img tag that you can output the image into -->
-
-
-
-  <p> Ask a Y/N Question to discover your fate. </p>
-  <input type="text" placeholder="What do you want to know?"></input>
-
-  <button id="answerButton"> Your future is a click away. </button>
-
-  <p id="answerContainer"></p>
+    <p>Ask A Question To Determine Your Fate</p>
+      <img src="img/magic8ball_empty.png" alt="8ballImg" class="img-responsive" id="eightball" name="magic_eight"><br>
+      <input type="text" placeholder="What is your question?">
+      <button type="button" onClick="ballAnswer()">Click to see what your future holds.</button>
 
 
 
- <script src="js/scripts.js"></script>
-</body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
