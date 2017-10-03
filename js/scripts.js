@@ -1,5 +1,5 @@
 // target your button and assign an ask function that outputs a random image to your page
-var answers = Array(
+var answers = [
   'magic8ball_1.png',
   'magic8ball_2.png',
   'magic8ball_3.png',
@@ -21,7 +21,7 @@ var answers = Array(
   'magic8ball_19.png',
   'magic8ball_20.png',
   'magic8ball_empty.png'
-)
+]
 
 
 var answers = Math.floor(Math.random() * 21);
